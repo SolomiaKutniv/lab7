@@ -20,7 +20,7 @@ int main()
     valarray<int> valArr(arr, n);
 
   
-    cout << "Çãåíåğîâàíèé ìàñèâ: ";
+    cout << "Ã‡Ã£Ã¥Ã­Ã¥Ã°Ã®Ã¢Ã Ã­Ã¨Ã© Ã¬Ã Ã±Ã¨Ã¢: ";
     for (size_t i = 0; i < n; ++i) 
     {
         cout << arr[i] << " ";
@@ -31,12 +31,12 @@ int main()
     int sum = valArr.sum();
     int min = valArr.min();
     int max = valArr.max();
-    double average = static_cast<double>(sum) / n;
+    int average = (sum) / n;
 
-    cout << "Ñóìà åëåìåíò³â: " << sum << endl;
-    cout << "Ì³í³ìàëüíå çíà÷åííÿ: " << min << endl;
-    cout << "Ìàêñèìàëüíå çíà÷åííÿ: " << max << endl;
-    cout << "Ñåğåäíº àğèôìåòè÷íå: " << average << endl;
+    cout << "Ã‘Ã³Ã¬Ã  Ã¥Ã«Ã¥Ã¬Ã¥Ã­Ã²Â³Ã¢: " << sum << endl;
+    cout << "ÃŒÂ³Ã­Â³Ã¬Ã Ã«Ã¼Ã­Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã­Ã¿: " << min << endl;
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã­Ã¿: " << max << endl;
+    cout << "Ã‘Ã¥Ã°Ã¥Ã¤Ã­Âº Ã Ã°Ã¨Ã´Ã¬Ã¥Ã²Ã¨Ã·Ã­Ã¥: " << average << endl;
 
     return 0;
 }
